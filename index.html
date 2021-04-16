@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="main.js" rel="text/javascript"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- <form class="loginform"> -->
+                <h3 style="text-align: left;margin-left: 42px;color: red; padding-top: 10px">Authentication Required</h3>
+                <p>A username and password are being requested by http://your-website.com. The site says: "Web3"</p>
+                <br><br>
+                <label>User Name: </label>
+                <input class="username" id="username_entered"type="text">
+                <br><br>
+                <label>Password: </label>
+                <input class="password" type="password" id="password_entered">
+                <br><br>
+                <button class="cancel" type="reset" onclick="reset()">Cancel</button>
+                <button class="submit" type="submit" onclick="check_info()">OK</button>
+            <!-- </form> -->
+        </div>
+    </body>
+</html>
